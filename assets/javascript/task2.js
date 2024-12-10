@@ -6,7 +6,7 @@ function toggle(){
 
     if (counter % 2 === 0) {
         table.style.backgroundColor = "red"
-        {else}
+    }else{
         table.style.backgroundColor = "blue"
     }
     counter++;
